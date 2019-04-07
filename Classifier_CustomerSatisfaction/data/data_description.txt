@@ -1,0 +1,14 @@
+DESCTRIPTION OF SOME FIELDS
+USER_ID - The userid of customer
+IS_SATISFIED - This is the field the we like to understand (0-not satisfied 1-satisfied)
+AGE- age of the customer
+ZODIAC_SIGN- zodiac sign of the customer
+OWN_HOUSE - Does the customer rents or owns a house (O - own, R -rent, NA - no information)
+TOT_REG_PHONE - Total phone numbers registered
+PAYMENT_TYPE- Payment frequency of the customer
+LOAN_WAITING - is the loan pending
+LOAN_REJECT - has the customer withdrawn the loan application 
+IOS_USER- Has the user used an iphone
+ADRIOD_USER - Has the user used a android based phone
+IS_REFERRED - Has the user referred
+CREDIT_SCORE - Customer's credit score
