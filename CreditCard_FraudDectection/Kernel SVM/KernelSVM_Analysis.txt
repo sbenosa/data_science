@@ -1,0 +1,18 @@
+[[71076     6]
+ [   42    78]]
+---------------------
+
+Accuracy: 0.9993258616331002
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     71082
+           1       0.93      0.65      0.76       120
+
+   micro avg       1.00      1.00      1.00     71202
+   macro avg       0.96      0.82      0.88     71202
+weighted avg       1.00      1.00      1.00     71202
+
+
+Analysis: Out of 120 fraudulent transactions, we are not able to predict 42 fraudulent cases.

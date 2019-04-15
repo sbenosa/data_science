@@ -1,0 +1,33 @@
+Isolation Forest:
+- Valid Transaction. Precision is good at 100%. It means that we are predicting all valid transactions 100 percent of the time. 
+However, there's bias here since the number of valid transactions on sample datapoints in quite enormous.
+- Fraudulent Transaction. The result is not inspiring. We are only correctly determining 24% of the fraudulent transactions
+
+Local Outlier Factor:
+- Valid Transaction. Precision is good at 100%. It means that we are predicting all valid transactions 100 percent of the time. 
+However, there's abias here since the number of valid transactions on sample datapoints in quite enormous.
+- Fraudulent Transaction. The result is not inspiring. We are only correctly determining 22% of the fraudulent transactions
+
+Isolation Forest: 75
+0.9973666654962958
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     28432
+           1       0.24      0.24      0.24        49
+
+   micro avg       1.00      1.00      1.00     28481
+   macro avg       0.62      0.62      0.62     28481
+weighted avg       1.00      1.00      1.00     28481
+
+Local Outlier Factor: 77
+0.9972964432428637
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     28432
+           1       0.22      0.22      0.22        49
+
+   micro avg       1.00      1.00      1.00     28481
+   macro avg       0.61      0.61      0.61     28481
+weighted avg       1.00      1.00      1.00     28481
+
+<matplotlib.figure.Figure at 0x1e8e491a940>
